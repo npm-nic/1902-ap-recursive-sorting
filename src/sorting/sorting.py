@@ -17,8 +17,6 @@ def merge(arrA, arrB):
     merged_arr += arrB[arrB_index:]
     return merged_arr
 
-    return merged_arr
-
 def merge_sort(arr):
     """Merge sort algorithm implementation."""
     if len(arr) <= 1:  # base case
